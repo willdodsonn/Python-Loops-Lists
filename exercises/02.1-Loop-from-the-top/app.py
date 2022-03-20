@@ -7,5 +7,5 @@ i = (my_sample_list[-1])
 # while some_variable_reference > 0:
 #     print(my_sample_list[some_variable_reference])
 #     chage after doing what we wanted, change the variables value so that the next pass it references the new index position
-for x in i:
+for x in reversed(my_sample_list):
     print(x)
